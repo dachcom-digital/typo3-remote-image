@@ -6,9 +6,8 @@ namespace DCD\DcdExtbaseEssentials\ViewHelpers\Image;
  * = Examples =
  * <code>
  * {namespace dcd=DCD\DcdExtbaseEssentials\ViewHelpers}
- * <dcd:image.remote src="http://www.dachcom.com/fileadmin/templates/images/interface/logo.png" />
+ * <dcd:image.remote src="http://www.dachcom.com/fileadmin/templates/images/interface/logo.png" alt="" />
  * </code>
-
  */
 class RemoteViewHelper extends \TYPO3\CMS\Fluid\ViewHelpers\ImageViewHelper {
     /**
